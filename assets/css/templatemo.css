@@ -237,6 +237,23 @@ margin: 10px 0px;
   }
  }
 
+ @media (max-width: 750px){
+  .carousel-inner .col-lg-6{
+    margin-top: 40px ;
+   }
+      .ic{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+ 
+   }
+    .ic a img{
+     margin-left: 0px;
+    }
+ }
+
+
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   #templatemo_main_nav .navbar-nav {max-width: 450px;}
